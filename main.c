@@ -257,6 +257,7 @@ void remove_dup()
                      if(tmp->data==curr->data)
                         {
                            prev->link=curr->link;
+                           curr->link=NULL;
                            free(curr);
                            curr=prev->link;
                         }
