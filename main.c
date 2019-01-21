@@ -34,7 +34,7 @@ int main()
                 {
                   case 1:
                   createnode(n);
-                  break;
+                  break; 
 
                   case 2:
                   display();
